@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context="com.example.asus.pembelajaranhurufhijaiyah.iqrokeenam">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iqro Enam"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hijay Apps"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/teorienam"
+        android:layout_above="@+id/imageButton23"
+        android:layout_alignLeft="@+id/imageButton23"
+        android:layout_alignStart="@+id/imageButton23" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/nulisenam"
+        android:layout_above="@+id/imageButton21"
+        android:layout_alignLeft="@+id/imageButton21"
+        android:layout_alignStart="@+id/imageButton21"
+        android:id="@+id/imageButton22" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/gameenam"
+        android:layout_alignTop="@+id/imageButton21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:id="@+id/imageButton23" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:background="@drawable/qaenam"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="103dp"
+        android:id="@+id/imageButton21" />
+
+</RelativeLayout>
