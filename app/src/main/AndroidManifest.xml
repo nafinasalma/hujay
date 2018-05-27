@@ -25,7 +25,12 @@
         <activity android:name=".iqrokeenam" />
         <activity android:name=".teoripertama" />
         <activity android:name=".nulispertama" />
-        <activity android:name=".gamepertama"></activity>
+        <activity android:name=".gamepertama" />
+        <activity android:name=".teorikedua" />
+        <activity android:name=".nuliskedua" />
+        <activity android:name=".gamekedua" />
+        <activity android:name=".qapertama" />
+        <activity android:name=".qakedua"></activity>
     </application>
 
 </manifest>

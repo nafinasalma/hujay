@@ -6,7 +6,6 @@
     android:background="@drawable/bghome"
     tools:context="com.example.asus.pembelajaranhurufhijaiyah.nulispertama">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

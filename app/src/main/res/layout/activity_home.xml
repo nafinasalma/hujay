@@ -11,7 +11,7 @@
         android:layout_marginTop="23dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hujay Apps"
+        android:text="@string/hujay_appshome"
         android:textStyle="bold"
         android:textColor="#ffffff"
         android:textSize="16sp"
@@ -22,7 +22,7 @@
         android:id="@+id/font_custom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aplikasi Belajar Huruf Hijaiyah"
+        android:text="@string/aplikasi_belajar_huruf_hijaiyah"
         android:textColor="#ffffff"
         android:textSize="14sp"
         android:layout_below="@+id/custom_font"
@@ -37,7 +37,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageButton

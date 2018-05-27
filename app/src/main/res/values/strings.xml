@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Pembelajaran Huruf Hijaiyah</string>
+    <string name="teorisatuu">teorisatuu</string>
+    <string name="iqro_pertama">Iqro Pertama</string>
+    <string name="hijay_apps">Hijay Apps</string>
+    <string name="game_pada_level_satu">Game pada level satu</string>
+    <string name="soal_pertanyaan_pada_level_satu">Soal pertanyaan pada level satu</string>
+    <string name="iqro_kedua">Iqro Kedua</string>
+    <string name="hujay_apps">Hujay Apps</string>
+    <string name="teori_level_2">Teori Level 2</string>
+    <string name="menulis_hijaiyah_level_2">Menulis Hijaiyah Level 2</string>
+    <string name="permainan_hijaiyah_level_2">Permainan Hijaiyah Level 2</string>
+    <string name="soal_pertanyaan_hijaiyah_level_2">Soal Pertanyaan Hijaiyah Level 2</string>
+    <string name="teori_hijaiyah_level_1">Teori Hijaiyah Level 1</string>
+    <string name="nulis_hijaiyah_level_1">Nulis Hijaiyah Level 1</string>
+    <string name="game_hijaiyah_level_1">Game Hijaiyah Level 1</string>
+    <string name="soal_pertanyaan_hijaiyah_level_1">Soal Pertanyaan Hijaiyah Level 1</string>
+    <string name="iqro_tiga">Iqro Tiga</string>
+    <string name="hujay_apps3">Hujay Apps</string>
+    <string name="iqro_empat">Iqro Empat</string>
+    <string name="hijay_apps4">Hujay Apps</string>
+    <string name="iqro_lima">Iqro Lima</string>
+    <string name="hujay_apps5">Hujay Apps</string>
+    <string name="iqro_enam">Iqro Enam</string>
+    <string name="hujay_apps6">Hujay Apps</string>
+    <string name="hujay_appshome">Hujay Apps</string>
+    <string name="aplikasi_belajar_huruf_hijaiyah">Aplikasi Belajar Huruf Hijaiyah</string>
 </resources>

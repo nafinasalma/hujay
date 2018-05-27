@@ -27,4 +27,9 @@ public class iqropertama extends AppCompatActivity {
         Intent i = new Intent(iqropertama.this, gamepertama.class);
         startActivity(i);
     }
+
+    public void movesatuqa(View view) {
+        Intent i = new Intent(iqropertama.this, qapertama.class);
+        startActivity(i);
+    }
 }
