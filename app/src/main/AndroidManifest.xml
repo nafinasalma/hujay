@@ -30,7 +30,8 @@
         <activity android:name=".nuliskedua" />
         <activity android:name=".gamekedua" />
         <activity android:name=".qapertama" />
-        <activity android:name=".qakedua"></activity>
+        <activity android:name=".qakedua" />
+        <activity android:name=".signature"></activity>
     </application>
 
 </manifest>

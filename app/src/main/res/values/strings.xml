@@ -25,4 +25,7 @@
     <string name="hujay_apps6">Hujay Apps</string>
     <string name="hujay_appshome">Hujay Apps</string>
     <string name="aplikasi_belajar_huruf_hijaiyah">Aplikasi Belajar Huruf Hijaiyah</string>
+    <string name="simpan">Simpan</string>
+    <string name="hapus">Hapus</string>
+    <string name="tulis_di_bawah_ini">tulis di bawah ini</string>
 </resources>
