@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asus.pembelajaranhurufhijaiyah">
+    package="com.example.asus.pembelajaranhurufhijaiyah"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="26" />
 
     <application
         android:allowBackup="true"
@@ -9,29 +15,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home" />
-        <activity android:name=".iqropertama" />
-        <activity android:name=".iqrokedua" />
-        <activity android:name=".iqroketiga" />
-        <activity android:name=".iqrokeempat" />
-        <activity android:name=".iqrokelima" />
-        <activity android:name=".iqrokeenam" />
-        <activity android:name=".teoripertama" />
-        <activity android:name=".nulispertama" />
-        <activity android:name=".gamepertama" />
-        <activity android:name=".teorikedua" />
-        <activity android:name=".nuliskedua" />
-        <activity android:name=".gamekedua" />
-        <activity android:name=".qapertama" />
-        <activity android:name=".qakedua" />
-        <activity android:name=".signature"></activity>
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.home" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqropertama" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqrokedua" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqroketiga" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqrokeempat" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqrokelima" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.iqrokeenam" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.teoripertama" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.nulispertama" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.gamepertama" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.teorikedua" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.nuliskedua" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.gamekedua" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.qapertama" />
+        <activity android:name="com.example.asus.pembelajaranhurufhijaiyah.qakedua" 
+            android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category/DEFAULT"/>
+        </intent-filter>
+        </activity>
+        
     </application>
 
 </manifest>
