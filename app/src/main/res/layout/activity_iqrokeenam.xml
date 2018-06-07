@@ -31,6 +31,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="moveenamteori"
         android:background="@drawable/teorienam"
         android:layout_above="@+id/imageButton23"
         android:layout_alignLeft="@+id/imageButton23"
@@ -39,6 +40,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="moveenamnulis"
         android:background="@drawable/nulisenam"
         android:layout_above="@+id/imageButton21"
         android:layout_alignLeft="@+id/imageButton21"
@@ -48,6 +50,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="moveenamgame"
         android:background="@drawable/gameenam"
         android:layout_alignTop="@+id/imageButton21"
         android:layout_alignParentLeft="true"
@@ -59,6 +62,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="moveenamqa"
         android:background="@drawable/qaenam"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView5"

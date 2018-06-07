@@ -31,6 +31,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="movelimateori"
         android:background="@drawable/teorilima"
         android:layout_above="@+id/imageButton18"
         android:layout_toLeftOf="@+id/imageButton19"
@@ -42,6 +43,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="movelimanulis"
         android:background="@drawable/nulislima"
         android:layout_above="@+id/imageButton17"
         android:layout_alignLeft="@+id/imageButton17"
@@ -51,6 +53,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="movelimagame"
         android:background="@drawable/gamelima"
         android:id="@+id/imageButton18"
         android:layout_below="@+id/imageButton19"
@@ -60,6 +63,7 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:onClick="movelimaqa"
         android:background="@drawable/qalima"
         android:layout_marginLeft="33dp"
         android:layout_marginStart="33dp"
